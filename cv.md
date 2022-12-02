@@ -1,21 +1,21 @@
 ## Pyrkin Artem
 ## Contacts:
-*Tel: 8927600272;
-*WatsApp: 8927600272;
-*Telegram: @Tematuta$
-*Email: 0009494@mail.ru
+* Tel: 8927600272;
+* WatsApp: 8927600272;
+* Telegram: @Tematuta$
+* Email: 0009494@mail.ru
 
 Mu name is Artem. I recently began to master the profession of front-end developer. I like to study something new. I was interested in this area of ​ ​ work with the opportunity to show my creativity. I like to see the progress and the result of my work. Now I am a newcomer to this, but I really want to learn and develop in this area.
 
 ### Tech Skills
-*HTML/HTML5
-*CSS/CSS3
-*Javascript
-*Git
+* HTML/HTML5
+* CSS/CSS3
+* Javascript
+* Git
 
 ### Soft Skills
-*Teamwork
-*Sociable
+* Teamwork
+* Sociable
 
 ### CODE EXAMPLE
 
@@ -33,7 +33,7 @@ if (isRaining) {
     minutes = 20;
     }
 ### My project
-*https://github.com/TemaTut/battleship.git [Html, Jsvascript]
+* https://github.com/TemaTut/battleship.git [Html, Jsvascript]
 
 ### Education:
 #### Samara State Transport University

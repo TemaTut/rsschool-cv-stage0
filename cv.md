@@ -38,8 +38,7 @@ if (isRaining) {
 ```   
 ### My project
 
-[My github]https://github.com/TemaTut/battleship.git.io [Html, Jsvascript]
-
+[My github][https://github.com/TemaTut/battleship.git.io] (Html, Jsvascript)
 ### Education:
 #### Samara State Transport University
 ##### Institute of Transport Equipment and Facilities (Wagons)

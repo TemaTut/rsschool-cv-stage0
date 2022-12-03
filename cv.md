@@ -22,10 +22,10 @@ Mu name is Artem. I recently began to master the profession of front-end develop
 
 ### CODE EXAMPLE
 
-```let temperature = 20;
+``` javascript
+let temperature = 20;
 let isRaining = true;
 let minutes = 0;
-
 if (isRaining) {
   minutes = 0;
   } else if (temperature >= 10 && temperature < 15) {
@@ -34,7 +34,7 @@ if (isRaining) {
     minutes = 40;
     } else if (temperature >= 25 && temperature <= 35) {
     minutes = 20;
-    }
+    };
 ```   
 ### My project
 

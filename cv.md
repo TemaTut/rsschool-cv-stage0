@@ -22,7 +22,7 @@ Mu name is Artem. I recently began to master the profession of front-end develop
 
 ### CODE EXAMPLE
 
-let temperature = 20;
+```let temperature = 20;
 let isRaining = true;
 let minutes = 0;
 
@@ -35,6 +35,7 @@ if (isRaining) {
     } else if (temperature >= 25 && temperature <= 35) {
     minutes = 20;
     }
+```   
 ### My project
 
 * https://github.com/TemaTut/battleship.git [Html, Jsvascript]

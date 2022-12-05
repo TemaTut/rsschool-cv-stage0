@@ -38,7 +38,7 @@ if (isRaining) {
 ```   
 ### My project
 
-[My project](https://github.com/TemaTut/battleship.git.io)
+[My project](https://github.com/TemaTut/battleship.git)
 
 ### Education:
 #### Samara State Transport University

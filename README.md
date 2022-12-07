@@ -1,2 +1,2 @@
 # rsschool-cv
-https://TemaTut.github.io/rsschool-cv/cv
+https://TemaTut.github.io/rsschool-cv/

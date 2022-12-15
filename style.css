@@ -14,7 +14,7 @@ html {
   }
 
   body {
-    background-color:rgb(198, 204, 198);
+    background-color:rgba(255, 255, 255, 1);
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     margin: 0; 
@@ -52,7 +52,7 @@ html {
 
   .nav-list {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     list-style: none;
   }
@@ -83,6 +83,8 @@ html {
   
   .section {
     width: 50%;
+    padding-left: 35px;
+    padding-right: 50px;
   }
 
   @media (max-width: 768px) {
@@ -110,10 +112,34 @@ html {
   }
 
   #myPhoto {
-    border-radius: 150px;
+    margin-left: 12%;
+    border-radius: 180px;
+  }
+
+  #photo {
+   margin: 0 auto;
+   max-width: 100%;
   }
 
   #profile {
-   
+    flex-wrap: nowrap;
+  }
+
+  #contacts {
+    flex-direction: column;
+  }
+
+  .wraper {
+    width: 1080px;
+    margin: 0 auto;
+    background-color: rgba(198, 204, 198, 0.5);
+  }
+
+  pre {
+    font-size: large;
+  }
+
+  .my-project {
+    height: 100px;
   }
 

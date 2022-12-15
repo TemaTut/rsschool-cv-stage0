@@ -33,15 +33,16 @@ html {
   }
 
   .header {
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(233, 235, 115);
   }
 
   .main {
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
   }
 
   .footer {
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
   }
 
   .container {
@@ -59,6 +60,7 @@ html {
   .nav-link {
     padding: 0 20px;
     line-height: 50px;
+    color: black;
   }
 
   .nav-link:hover {
@@ -106,3 +108,12 @@ html {
   .link:hover {
     color: #5d7260;
   }
+
+  #myPhoto {
+    border-radius: 150px;
+  }
+
+  #profile {
+   
+  }
+

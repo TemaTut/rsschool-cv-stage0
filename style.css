@@ -103,8 +103,8 @@ html {
     padding-right: 50px;
   }
 
-  @media (max-width: 480px) {
-    .div {
+  @media (max-width: 1480px) {
+    .wraper {
       width: 100%;
     }
   }

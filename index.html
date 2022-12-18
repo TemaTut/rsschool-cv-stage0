@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,111 +9,141 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.ico">
 </head>
+
 <body>
     <div class="wraper">
-    <header class = "header">
-        <div class="container">
-            <nav class="nav">
-                <ul class="nav-list">
-                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                  <li class="nav-item"><a href="#code example" class="nav-link">Code example</a></li>
-                  <li class="nav-item"><a href="#my project" class="nav-link">My project</a></li>
-                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                  <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-                </ul>
-              </nav>
-        </div>    
-    </header>
-    <main class = "main main-container">
-        <div class= "container main-container">
-        <section class="section" id="photo"><img id="myPhoto" src="assets/Image.jpg" width="380" height="380" alt="my photo"></section>
-        <section class="section" id="profile">
-            <h1 class="section-title" id="my-name">Pyrkin Artem</h1>
-        </section>
-        <section class="section" id="contacts">
-            <h2 class="section-title">Contacts</h2>
-                <ul>
-                    <li>Tel: 8927600272;</li>
-                    <li>WatsApp: 8927600272;</li>
-                    <li>Telegram: @Tematut</li> 
-                    <li>Email: 0009494@mail.ru</li>
-                </ul>
-        </section>
-        <section class="section" id="summary">
-            <h2 class="section-title">About me</h2>
-            <p>My name is Artem. I recently began to master the profession of front-end developer.<br> I like to study something new. I was interested in this area of work<br> with the opportunity to show my creativity. I like to see the progress<br> and the result of my work. Now I am a newcomer to this, but<br> I really want to learn and develop in this area.</p>
-        </section>
-        <section class="section" id="skills">
-            <h2 class="section-title"> Skills</h2>
-            <p>Tech Skills
-                <ul>
-                    <li>HTML/HTML5</li>
-                    <li>CSS/CSS3</li>
-                    <li>Javascript</li>
-                    <li>Git</li>
-                </ul>
-            </p>
-            <p>Soft Skills
-                <ul>
-                    <li>Teamwork</li>
-                    <li>Sociable</li>
-                </ul>
-            </p>
-        </section>
-        <section class="section" id="code example">
-            <h2 class="section-title">Code example</h2>
-                <p>let temperature = 20;<br>
-<pre>let isRaining = true;
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a>
+                        </li>
+                        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a>
+                        </li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code-example" class="nav-link">Code
+                                example</a></li>
+                        <li class="nav-item"><a href="#my-project" class="nav-link">My
+                                project</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a>
+                        </li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main main-container">
+            <div class="container main-container">
+                <section class="section" id="photo"><img id="myPhoto" src="assets/Image.jpg" width="380" height="380"
+                        alt="my photo">
+                    <h2>Card</h2>
+                </section>
+                <section class="section" id="profile">
+                    <h1 class="section-title" id="my-name">Pyrkin Artem</h1>
+                    <p class="font-style">Junior FRONT-END developer</p>
+                </section>
+                <section class="section" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul>
+                        <li>Tel: 8927600272;</li>
+                        <li>WatsApp: 8927600272;</li>
+                        <li>Telegram: @Tematut</li>
+                        <li>Email: 0009494@mail.ru</li>
+                    </ul>
+                </section>
+                <section class="section" id="summary">
+                    <h2 class="section-title">About me</h2>
+                    <p>My name is Artem. I recently began to master the profession of front-end
+                        developer.<br> I like to study something new. I was interested in this
+                        area of work<br> with the opportunity to show my creativity. I like to
+                        see the progress<br> and the result of my work. Now I am a newcomer to
+                        this, but<br> I really want to learn and develop in this area.</p>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <p>Tech Skills</p>
+                    <ul>
+                        <li>HTML/HTML5</li>
+                        <li>CSS/CSS3</li>
+                        <li>Javascript</li>
+                        <li>Git</li>
+                    </ul>
+
+                    <p>Soft Skills
+                    <ul>
+                        <li>Teamwork</li>
+                        <li>Sociable</li>
+                    </ul>
+
+                </section>
+                <section class="section" id="code-example">
+                    <h2 class="section-title">Code example</h2>
+                    <p>let temperature = 20;<br>
+                    <pre><code> let isRaining = true;
 let minutes = 0;
 if (isRaining) {
   minutes = 0;
-  } else if (temperature >= 10 && temperature < 15) {
+  } else if (temperature >= 10 && temperature &lt; =15) {
     minutes = 30;
-  } else if (temperature >= 15 && temperature < 25) {
+  } else if (temperature >= 15 && temperature &lt; =25) {
     minutes = 40;
-  } else if (temperature >= 25 && temperature <= 35) {
+  } else if (temperature >= 25 && temperature &lt; =35) {
     minutes = 20;
   };
+</code>
 </pre>
-            </p>
-        </section>
-        <section class="section my-project" id="my project">
-            <h2 class="section-title">My project</h2>
-            <a href="https://github.com/TemaTut/battleship">battleship</a>
-            <h2 class="section-title">Languages</h2>
-            <ul>
-                <li>Russian - native speaker</li>
-                <li>English - A2</li>
-            </ul>
-        </section>
-        <section class="section" id="education">
-            <h2 class="section-title">Education</h2>
-            <ul>
-            <li>Samara State Transport University<br>
-            Institute of Transport Equipment and Facilities (Wagons)</li>
-            <li> Learn:
-                <ul>
-                    <li>Learn: Head First HTML and CSS (by Elisabeth Robson & Eric Freeman)</li>
-                    <li>Head First Javascript programming (by Eric Freeman & Elisabeth Robson)</li>
-                </ul></li>
-                <li>Сourses: HTMLacademy
-                    <ul>
-                        <li>Getting to know the frontend</li>
-                        <li>Programming in JavaScript - the basics of the language</li>
+
+                </section>
+                <section class="section my-project" id="my-project">
+                    <h2 class="section-title my-project">My project</h2>
+                    <p><a class="my-project" href="https://github.com/TemaTut/battleship" id="battleship"></a></p>
+                    <h2 class="section-title Languages" id="languages">Languages</h2>
+                    <ul class="Languages">
+                        <li>Russian - native speaker</li>
+                        <li>English - A2</li>
                     </ul>
-                </li>
-            </ul>
-        </section>
-        <section class="section" id="languages">
-            
-        </section>
-        </div>
-    </main>
-    <footer class = "footer">
-        <div class="container"></div>
-    </footer>
+                </section>
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <ul>
+                        <li>Samara State Transport University<br>
+                            Institute of Transport Equipment and Facilities (Wagons)</li>
+                        <li> Learn:
+                            <ul>
+                                <li>Learn: Head First HTML and CSS (by Elisabeth Robson & Eric
+                                    Freeman)</li>
+                                <li>Head First Javascript programming (by Eric Freeman &
+                                    Elisabeth Robson)</li>
+                            </ul>
+                        </li>
+                        <li>Сourses: HTMLacademy
+                            <ul>
+                                <li>Getting to know the frontend</li>
+                                <li>Programming in JavaScript - the basics of the language</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <section>
+                <div class="container-footer">
+                    <div>
+                        <h2 id="year">2022</h2>
+                    </div>
+                    <div class="logo">
+                        <a href="https://rs.school/js-stage0/">
+                            <img src="assets/logo.png" width="120" height="55" alt="logo RSS">
+                        </a>
+                    </div>
+                    <div class="creator">
+                        <a href="https://github.com/TemaTut" id="creator">Pyrkin Artem</a>
+                    </div>
+                </div>
+            </section>
+        </footer>
     </div>
 </body>
 </html>

@@ -103,8 +103,8 @@ html {
     padding-right: 50px;
   }
 
-  @media (max-width: 768px) {
-    .section {
+  @media (max-width: 480px) {
+    .div {
       width: 100%;
     }
   }

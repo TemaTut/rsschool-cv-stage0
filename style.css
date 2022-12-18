@@ -14,14 +14,14 @@ html {
   }
 
   body {
-    background-color:rgba(255, 255, 255, 1);
-    font-family: 'Roboto', sans-serif;
-    min-height: 100vh;
-    margin: 0; 
-    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0; 
+    padding: 0;  
+    background-color:rgba(255, 255, 255, 1);
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;      
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
@@ -75,7 +75,7 @@ html {
   .nav-link {
     padding: 0 20px;
     line-height: 50px;
-    color: black;
+    color: #000000;
   }
 
   .nav-link:hover {
@@ -166,13 +166,9 @@ html {
                  1px 25px 50px rgba(16, 16, 16, 0.2);
   }
 
-  #contacts {
-  
-  }
-
   .wraper {
     width: 1080px;
-    margin: 0 auto;
+    margin: auto;
     background-color: rgba(198, 204, 198, 0.5);
     border: 1px solid #000000;
     border-radius: 20px;
@@ -180,10 +176,6 @@ html {
 
   pre {
     font-size: large;
-  }
-
-  .my-project {
-    height: 100px;
   }
 
   .font-style {
@@ -209,11 +201,12 @@ html {
 
   .my-project {
     text-align: center;
-    height: 10px;
+    height: 40px;
   }
 
   .Languages {
     text-align: left;
+    
   }
 
   #creator {
@@ -224,3 +217,10 @@ html {
     color: #000000;
   }
 
+  .battleship {
+    text-align: center;
+  }
+
+  #ship {
+    border-radius: 120px;
+  }

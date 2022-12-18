@@ -199,11 +199,6 @@ html {
     border-bottom: 5px solid #ffffff;
   }
 
-  .my-project {
-    text-align: center;
-    height: 40px;
-  }
-
   .Languages {
     text-align: left;
     
@@ -224,3 +219,5 @@ html {
   #ship {
     border-radius: 120px;
   }
+
+  

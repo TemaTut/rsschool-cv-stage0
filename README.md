@@ -1,2 +1,2 @@
 # rsschool-cv
-https://cv-pyrkin-artem.netlify.app/
+https://tematut-cv3-cross-check.netlify.app/
